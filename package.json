@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config-monorepo",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "lerna exec 'npm test'",
+    "postinstall": "lerna bootstrap",
+    "publish": "lerna publish"
+  },
+  "author": "Bannerets <save14@protonmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  }
+}
