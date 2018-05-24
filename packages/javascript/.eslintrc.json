@@ -101,6 +101,7 @@
     "no-useless-constructor": 1,
     "no-useless-escape": 1,
     "no-useless-rename": 1,
+    "no-useless-return": 1,
     "no-with": 2,
     "no-array-constructor": 2,
     "accessor-pairs": 2,
@@ -138,6 +139,8 @@
 
     "promise/param-names": 1,
 
+    "import/export": 2,
+    "import/no-self-import": 2,
     "import/first": 1,
     "import/no-duplicates": 1
   }

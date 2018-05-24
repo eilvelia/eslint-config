@@ -1,7 +1,7 @@
 {
   "name": "@bannerets/eslint-config-flow",
   "version": "0.0.3",
-  "description": "",
+  "description": "ESLint Shareable Config",
   "scripts": {},
   "author": "Bannerets <save14@protonmail.com>",
   "license": "MIT",

@@ -22,3 +22,13 @@ Create `.eslintrc.json`:
   ]
 }
 ```
+
+Add npm script:
+
+```json
+{
+  "scripts": {
+    "lint": "eslint . --max-warnings 0"
+  }
+}
+```
