@@ -17,7 +17,7 @@ Create `.eslintrc.json`:
     "es6": true
   },
   "extends": [
-    "@bannerets/eslint-config-flow"
+    "@bannerets/eslint-config"
   ]
 }
 ```
