@@ -1,0 +1,26 @@
+{
+  "name": "@bannerets/eslint-config",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {},
+  "author": "Bannerets <save14@protonmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 4"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-promise": "^3.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bannerets/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bannerets/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Bannerets/eslint-config#readme"
+}
