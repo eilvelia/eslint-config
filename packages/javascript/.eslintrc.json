@@ -11,7 +11,11 @@
   ],
   "rules": {
     "valid-jsdoc": 1,
-    "operator-linebreak": [1, "before"],
+    "operator-linebreak": [1, "before", {
+      "overrides": {
+        "=": "ignore"
+      }
+    }],
     "yoda": [1, "never", { "exceptRange": false, "onlyEquality": true }],
     "no-undef": 2,
     "no-self-compare": 1,
