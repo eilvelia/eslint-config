@@ -11,7 +11,7 @@ Create `.eslintrc.json`:
 
 ```json
 {
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "env": {
     "browser": true,
     "node": true,
