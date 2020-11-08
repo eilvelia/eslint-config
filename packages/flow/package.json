@@ -1,6 +1,6 @@
 {
   "name": "@bannerets/eslint-config-flow",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "ESLint Shareable Config",
   "scripts": {},
   "author": "Bannerets <comonoid@protonmail.com>",
@@ -10,12 +10,12 @@
     "eslint": "^7.13.0"
   },
   "peerDependencies": {
-    "eslint": ">= 6",
-    "@babel/core": ">= 7"
+    "@babel/core": ">= 7",
+    "eslint": ">= 6"
   },
   "dependencies": {
     "@babel/eslint-parser": "^7.12.1",
-    "@bannerets/eslint-config": "^0.3.0",
+    "@bannerets/eslint-config": "^0.4.0",
     "eslint-plugin-flowtype": "^5.2.0"
   },
   "files": [
