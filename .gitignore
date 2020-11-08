@@ -1,4 +1,5 @@
-.DS_Store
 node_modules/
+lerna-*.log
+yarn-*.log
+packages/*/LICENSE
 package-lock.json
-lerna-debug.log

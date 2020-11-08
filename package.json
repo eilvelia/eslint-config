@@ -6,11 +6,17 @@
   "scripts": {
     "test": "lerna exec 'npm test'",
     "postinstall": "lerna bootstrap",
+    "prepare": "node copy.js",
+    "preversion": "node copy.js",
     "publish": "lerna publish"
   },
-  "author": "Bannerets <save14@protonmail.com>",
+  "author": "Bannerets <comonoid@protonmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "lerna": "^2.11.0"
-  }
+    "lerna": "^3.22.1",
+    "yarn": "^1.22.10"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
